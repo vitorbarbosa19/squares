@@ -1,0 +1,219 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "lib": [
+            "es6",
+            "dom",
+            "es2017",
+            "ESNext"
+        ],
+        "jsx": "react",
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitThis": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "downlevelIteration": true,
+        "baseUrl": ".",
+        "forceConsistentCasingInFileNames": true,
+        "paths": {
+            "config": [
+                "./config.ts"
+            ],
+            "@bit/ziro.firebase.account-management": [
+                "./components/firebase/accountManagement"
+            ],
+            "@bit/ziro.firebase.catalog-user-data": [
+                "./components/firebase/catalogUserData"
+            ],
+            "@bit/ziro.firebase.init": [
+                "./components/firebase/init"
+            ],
+            "@bit/ziro.firebase.storeowner-data": [
+                "./components/firebase/storeownerData"
+            ],
+            "@bit/ziro.firebase.user-status": [
+                "./components/firebase/userStatus"
+            ],
+            "@bit/ziro.utils.capitalize": [
+                "./components/utils/capitalize"
+            ],
+            "@bit/ziro.utils.component-state": [
+                "./components/utils/componentState"
+            ],
+            "@bit/ziro.utils.context": [
+                "./components/utils/context"
+            ],
+            "@bit/ziro.utils.device-detect": [
+                "./components/utils/deviceDetect"
+            ],
+            "@bit/ziro.utils.give-discount": [
+                "./components/utils/giveDiscount"
+            ],
+            "@bit/ziro.utils.history": [
+                "./components/utils/history"
+            ],
+            "@bit/ziro.utils.is-ellipsis-showing": [
+                "./components/utils/isEllipsisShowing"
+            ],
+            "@bit/ziro.utils.string-formatter": [
+                "./components/utils/stringFormatter"
+            ],
+            "@bit/ziro.utils.strip-non-firebase-values": [
+                "./components/utils/stripNonFirebaseValues"
+            ],
+            "@bit/ziro.utils.themes": [
+                "./components/utils/themes"
+            ],
+            "@bit/ziro.utils.types": [
+                "./components/utils/types"
+            ],
+            "@bit/ziro.utils.use-clipboard": [
+                "./components/utils/useClipboard"
+            ],
+            "@bit/ziro.utils.use-device-size": [
+                "./components/utils/useDeviceSize"
+            ],
+            "@bit/ziro.utils.use-http": [
+                "./components/utils/useHttp"
+            ],
+            "@bit/ziro.utils.use-rollback": [
+                "./components/utils/useRollback"
+            ],
+            "@bit/ziro.utils.use-scroll-end": [
+                "./components/utils/useScrollEnd"
+            ],
+            "@bit/ziro.utils.use-size": [
+                "./components/utils/useSize"
+            ],
+            "@bit/ziro.utils.validate-cpf-cnpj": [
+                "./components/utils/validateCpfCnpj"
+            ],
+            "@bit/ziro.views.avatar": [
+                "./components/views/Avatar"
+            ],
+            "@bit/ziro.views.badge": [
+                "./components/views/Badge"
+            ],
+            "@bit/ziro.views.badge-wrapper": [
+                "./components/views/BadgeWrapper"
+            ],
+            "@bit/ziro.views.button": [
+                "./components/views/Button"
+            ],
+            "@bit/ziro.views.card": [
+                "./components/views/Card"
+            ],
+            "@bit/ziro.views.conditional": [
+                "./components/views/Conditional"
+            ],
+            "@bit/ziro.views.container": [
+                "./components/views/Container"
+            ],
+            "@bit/ziro.views.divider": [
+                "./components/views/Divider"
+            ],
+            "@bit/ziro.views.dots-loader": [
+                "./components/views/DotsLoader"
+            ],
+            "@bit/ziro.views.error": [
+                "./components/views/Error"
+            ],
+            "@bit/ziro.views.fixed-bar": [
+                "./components/views/FixedBar"
+            ],
+            "@bit/ziro.views.form": [
+                "./components/views/Form"
+            ],
+            "@bit/ziro.views.geo-map": [
+                "./components/views/GeoMap"
+            ],
+            "@bit/ziro.views.header": [
+                "./components/views/Header"
+            ],
+            "@bit/ziro.views.icon": [
+                "./components/views/Icon"
+            ],
+            "@bit/ziro.views.icon2": [
+                "./components/views/Icon2"
+            ],
+            "@bit/ziro.views.icon-text": [
+                "./components/views/IconText"
+            ],
+            "@bit/ziro.views.illustration": [
+                "./components/views/Illustration"
+            ],
+            "@bit/ziro.views.information": [
+                "./components/views/Information"
+            ],
+            "@bit/ziro.views.input": [
+                "./components/views/Input"
+            ],
+            "@bit/ziro.views.link": [
+                "./components/views/Link"
+            ],
+            "@bit/ziro.views.modal": [
+                "./components/views/Modal"
+            ],
+            "@bit/ziro.views.product-gallery": [
+                "./components/views/ProductGallery"
+            ],
+            "@bit/ziro.views.review-score": [
+                "./components/views/ReviewScore"
+            ],
+            "@bit/ziro.views.router": [
+                "./components/views/Router"
+            ],
+            "@bit/ziro.views.skeleton": [
+                "./components/views/Skeleton"
+            ],
+            "@bit/ziro.views.slider": [
+                "./components/views/Slider"
+            ],
+            "@bit/ziro.views.table": [
+                "./components/views/Table"
+            ],
+            "@bit/ziro.views.tab-menu": [
+                "./components/views/TabMenu"
+            ],
+            "@bit/ziro.views.text": [
+                "./components/views/Text"
+            ],
+            "@bit/ziro.views.timeline": [
+                "./components/views/Timeline"
+            ],
+            "@bit/ziro.views.title": [
+                "./components/views/Title"
+            ],
+            "@bit/ziro.unpublished.delete-button": [
+                "./unpublished/Cart/DeleteButton"
+            ],
+            "@bit/ziro.unpublished.edit-button": [
+                "./unpublished/Cart/EditButton"
+            ],
+            "@bit/ziro.unpublished.delete-and-submit-buttons": [
+                "./unpublished/DeleteAndSubmitButtons"
+            ],
+            "@bit/ziro.unpublished.order-summary": [
+                "./unpublished/OrderSummary"
+            ]
+        }
+    },
+    "include": [
+        "./components/**/*",
+        "./flows/**/*",
+        "./src/**/*",
+        "./unpublished/**/*",
+        "config.ts",
+        "./log.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        ".parcel-cache",
+        "./components/compilers",
+        "./components/testers"
+    ]
+}
